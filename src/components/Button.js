@@ -6,8 +6,8 @@ const DisplayButton = styled.button`
   padding-bottom: 16px;
   width: 100%;
   font-family: "Roboto", sans-serif;
-  font-size: 20px;
-  line-height: 24px;
+  font-size: 16px;
+  line-height: 16px;
   color: #414141;
   background: #dae2ec;
   border: none;

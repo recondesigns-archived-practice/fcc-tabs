@@ -6,7 +6,7 @@ import heroImg from "./assets/about-background.jpeg";
 const Container = styled.div`
   padding: 80px 20px 0px 20px;
   background: rgb(241, 245, 248);
-  border: 1px solid lightcoral;
+  /* border: 1px solid lightcoral; */
 `;
 
 const Title = styled.h1`
@@ -16,7 +16,7 @@ const Title = styled.h1`
   line-height: 40px;
   text-align: center;
   color: #414141;
-  border: 1px dashed green;
+  /* border: 1px dashed green; */
 `;
 
 const Subtitle = styled.h2`
@@ -26,11 +26,12 @@ const Subtitle = styled.h2`
   text-align: center;
   color: #414141;
   opacity: 0.8;
-  border: 1px dashed green;
+  /* border: 1px dashed green; */
 `;
 
 const HeroImage = styled.img`
   margin-top: 80px;
+  margin-bottom: 30px;
   width: 100%;
   border-radius: 8px;
 `;

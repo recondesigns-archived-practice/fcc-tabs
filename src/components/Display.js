@@ -9,7 +9,7 @@ import Button from "./Button";
 const Container = styled.div`
   border-radius: 8px;
   overflow: hidden;
-  border: 2px solid dodgerblue;
+  /* border: 2px solid dodgerblue; */
 `;
 
 const ButtonWrapper = styled.div`
@@ -18,8 +18,9 @@ const ButtonWrapper = styled.div`
 `;
 
 const SwitchWrapper = styled.div`
-  height: 300px;
-  border: 4px solid green;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  /* height: 300px; */
 `;
 
 export default function Display() {
