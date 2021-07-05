@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import Display from "./components/Display";
 import heroImg from "./assets/about-background.jpeg";
 
 const Container = styled.div`
@@ -31,7 +32,7 @@ const Subtitle = styled.h2`
 const HeroImage = styled.img`
   margin-top: 80px;
   width: 100%;
-  border-radius: 12px;
+  border-radius: 8px;
 `;
 
 export default function App() {
@@ -44,6 +45,7 @@ export default function App() {
         }
       </Subtitle>
       <HeroImage src={heroImg} alt={"random text"} />
+      <Display />
     </Container>
   );
 }
