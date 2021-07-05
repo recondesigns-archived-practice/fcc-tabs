@@ -15,6 +15,6 @@ const DisplayButton = styled.button`
 `;
 
 export default function Button(props) {
-  const { label } = props;
-  return <DisplayButton>{label}</DisplayButton>;
+  const { label, onclick } = props;
+  return <DisplayButton onClick={onclick}>{label}</DisplayButton>;
 }
