@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import heroImg from "./assets/about-background.jpeg";
 
 const Container = styled.div`
   padding: 80px 20px 0px 20px;
@@ -10,7 +11,7 @@ const Container = styled.div`
 const Title = styled.h1`
   margin-bottom: 8px;
   font-family: "Roboto", sans-serif;
-  font-size: 40px;
+  font-size: 32px;
   line-height: 40px;
   text-align: center;
   color: #414141;
@@ -18,13 +19,19 @@ const Title = styled.h1`
 `;
 
 const Subtitle = styled.h2`
-  font-size: 16px;
-  line-height: 24px;
+  font-size: 14px;
+  line-height: 20px;
   font-family: "Open Sans", sans-serif;
   text-align: center;
   color: #414141;
   opacity: 0.8;
   border: 1px dashed green;
+`;
+
+const HeroImage = styled.img`
+  margin-top: 80px;
+  width: 100%;
+  border-radius: 12px;
 `;
 
 export default function App() {
@@ -36,6 +43,7 @@ export default function App() {
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, aperiam!"
         }
       </Subtitle>
+      <HeroImage src={heroImg} alt={"random text"} />
     </Container>
   );
 }
